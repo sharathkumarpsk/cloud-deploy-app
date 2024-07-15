@@ -6,6 +6,6 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<flow name="demoFlow" doc:id="1f90b619-b0b1-4587-9593-e4ee510f4365" >
 		<http:listener doc:name="Listener" doc:id="343c2c77-534e-4173-8703-c00a5231185d" config-ref="HTTP_Listener_config" path="demo"/>
-		<logger level="INFO" doc:name="Logger" doc:id="9079b209-fa17-4e1a-832a-798374a21a16" message="---------demo file ----------------$$$"/>
+		<logger level="INFO" doc:name="Logger" doc:id="9079b209-fa17-4e1a-832a-798374a21a16" message="---------demo file --------"/>
 	</flow>
 </mule>
