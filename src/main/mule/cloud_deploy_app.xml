@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="cloud_deploy_appFlow" doc:id="543366d6-c231-4dea-9a73-40ab91fddf36" >
 		<http:listener doc:name="/testcloud" doc:id="82eb7564-e879-4fad-a5de-526b2a6fcd59" path="/testcloud" config-ref="HTTP_Listener_config"/>
-		<logger level="INFO" doc:name="display message" doc:id="f4e13122-6cfe-409b-9008-3b94494d458b" message="Cloud Deployment working in log.----"/>
+		<logger level="INFO" doc:name="display message" doc:id="f4e13122-6cfe-409b-9008-3b94494d458b" message="Cloud Deployment working in log.----$$$$$$%%%%"/>
 		<ee:transform doc:name="Transform Message" doc:id="315c5ed5-1a0d-40e3-becf-c16a5a2d409c" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
